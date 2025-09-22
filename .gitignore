@@ -1,2 +1,10 @@
-_site/
-.sass-cache/
+# Hugo generated folders and files
+public/
+resources/
+.hugo_build.lock
+
+# Node.js dependencies (if using a build process with npm)
+node_modules/
+
+# IDE specific files (example for VS Code)
+.vscode/

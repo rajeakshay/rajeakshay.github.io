@@ -1,0 +1,27 @@
+baseURL: "https://akshayraje.com/"
+languageCode: "en-us"
+title: "Akshay Raje"
+
+# Disable taxonomies since we don't need them for a simple landing page
+disableKinds:
+  - taxonomy
+  - term
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+params:
+  author: "Akshay Raje"
+  description: "Personal website of Akshay Raje"
+
+  # Social Links
+  social:
+    github: "https://github.com/rajeakshay"
+    linkedin: "https://linkedin.com/in/rajeakshay"
+    instagram: "https://instagram.com/raje.akshay"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
